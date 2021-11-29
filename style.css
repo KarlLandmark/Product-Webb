@@ -9,7 +9,7 @@ body{
     background-color:rgb(54, 54, 54);
     align-content: center;
     text-decoration: none;
-    
+    text-align: center;
 
     
   }
@@ -18,14 +18,13 @@ body{
     background-color: rgba(245, 245, 245, 0.616);
     padding: 30px;
     font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
     height: 15px;
     display: flex;
     align-items: center;
     flex-grow: 1;  
 }
-.flex-container-top a:hover{background-color: #ddd;}
+
 
 .homepage-text-container{
     display: flex;
@@ -93,7 +92,7 @@ body{
     text-decoration: none;
   }
 
-  .flex-container a:hover{
+  .flex-container-top a:hover{
     background-color: blanchedalmond;
   }
   h1{
