@@ -1,0 +1,16 @@
+.flex-container-product-showcase{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.product-text{
+    font-size: 130%;
+    font-weight: bold;
+    display:block;
+    min-width: 10em;
+    max-width: 33em;
+}
+
+  

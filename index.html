@@ -1,52 +1,70 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="slideshow.js"></script>
 </head>
-<body>
+<body onload="showSlides()">
     <!-- Top Menu -->
     <div class="flex-container-top">
-       
-        <a href="index.html">
-            <div><p>Home</p></div>
-        </a>
-    
-         <a href="products.html">
-            <div><p>Products</p></div> 
-         </a>
-         <a href="Contacts.html"> 
-            <div><p>Contacts</p></div>
-         </a>
-         <a href="About Us.html">
-             <div><p>About us</p></div>
-         </a>
-
-         <a href="shopping cart.html">
-             <div><p>Shopping cart</p></div>
-         </a>
-
-
-        </div>
         
-    <!-- Pictures -->
-        <h2>AKEA Computer Parts</h2>
-        <div class="products">
-            <img class="Gpu-3060" src="Pictures/GPU 3060.png" alt="3060">
-            <img class="Gpu-3070" src="Pictures/GPU 3070.png" alt="3070">
-            <img class="Gpu-3080" src="Pictures/GPU 3080.png" alt="3080">
-            <img class="Gpu-3090" src="Pictures/GPU 3090.png" alt="3090">
-        </div>
-    <div class=home-text-container>
-       <p class="homepage-text">The best deals of you will ever find across the whole galaxy. We offer free shipping worldwide! We make sure that your package will arive intact and in superb condition. </p>
+        <a href="index.html">
+            <div><p>Hem</p></div>
+        </a>
+
+        <a href="products.html">
+            <div><p>Produkter</p></div> 
+        </a>
+        <a href="Contacts.html"> 
+            <div><p>Kontakta oss</p></div>
+        </a>
+        <a href="About Us.html">
+            <div><p>Om oss</p></div>
+        </a>
+
+        <a href="shopping cart.html">
+            <div><p>Kundvagn</p></div>
+        </a>
     </div>
-     
+
+        
+        <!--Banner-->
+        <h2>AKEA Dator komponenter</h2>
+        <!-- Slide Show -->
+        <a href="products.html">
+         <div class="slideshow-container">
+            <div class="mySlides fade">
+                  <img  src="Pictures/GPU 3060.png" alt="3060" style="width:20em" style="height: 40em;">
+            </div >
+            <div class="mySlides fade">
+                  <img  src="Pictures/GPU 3070.png" alt="3070" style="width:20em" style="height: 40em;">
+            </div>
+            <div class="mySlides fade">
+                  <img  src="Pictures/GPU 3080.png" alt="3080" style="width:20em" style="height: 40em;">
+            </div>
+            <div class="mySlides fade">
+                 <img  src="Pictures/GPU 3090.png" alt="3090" style="width:20em" style="height: 40em;">
+            </div>
+        </div>
+    </a>
+    <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+    </div>
+    <div class=homepage-text-container>
+       <p class="homepage-text">Vi Säljer dem bästa dator delarna i hela sverige. Gratis frakt i hela världen sålänge du inbte bor på nordpolen. det är 3 års garanti på alla produkter! </p>
+    </div>
+    
 
 
 </body>
+    <!--Footer-->
 <footer>
     <div class="footer">
         <h1>
-            AKEA - We buy and sell broken furnature
+            AKEA - Bästa dator delarna som pengar kan köpa
         </h1>
 
    </div>

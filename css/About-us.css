@@ -1,0 +1,27 @@
+.flex-container-about-us-information{
+    display:flex;
+    justify-content: center;
+
+    text-align: center;
+    
+}
+.flex-container-about-us{
+    background-color:rgba(2, 2, 2, 0.616);
+    justify-content: center;
+    display:flex;
+    border-radius: 20px;
+    margin-top: 2%;  
+    
+    
+}
+.flex-container-Questionmark{
+     position: relative;
+     display: flex;
+     justify-content: center;
+        margin-bottom: 5%;
+        margin-top: 5%;
+
+}
+.Questionmark{
+    width: 20%;
+}
